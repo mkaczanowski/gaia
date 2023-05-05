@@ -318,6 +318,9 @@ replace (
 	github.com/cosmos/cosmos-sdk => github.com/cosmos/cosmos-sdk v0.45.15-ics
 	github.com/cosmos/ibc-go/v4 => github.com/cosmos/ibc-go/v4 v4.2.0
 
+	// bypass ledger serialisation issue
+	github.com/cosmos/interchain-security => github.com/mkaczanowski/interchain-security v1.1.0-ledger-bypass-serialization-issue
+
 	// TODO: remove it: https://github.com/cosmos/cosmos-sdk/issues/13134
 	github.com/dgrijalva/jwt-go => github.com/golang-jwt/jwt/v4 v4.4.2
 	// TODO Remove it: https://github.com/cosmos/cosmos-sdk/issues/10409
